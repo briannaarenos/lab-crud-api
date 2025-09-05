@@ -6,7 +6,7 @@ Currently supports **students** and **courses** resources.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 - **Backend Framework:** Express.js  
 - **Database:** MySQL (via XAMPP or MySQL CLI)  
 - **Environment Config:** dotenv  
@@ -19,7 +19,7 @@ Currently supports **students** and **courses** resources.
 
 ---
 
-## ⚙️ Setup Steps
+## Setup Steps
 
 1. **Clone the Repository**
    git clone https://github.com/<your-username>/lab-crud-api.git
