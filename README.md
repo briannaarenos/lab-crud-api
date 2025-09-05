@@ -60,13 +60,13 @@ Currently supports **students** and **courses** resources.
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
   );
 
-**HOW TO RUN**
+## HOW TO RUN
   npm run dev
   
   Server should be running at http://localhost:3000
 
-**API Endpoints**
-  Health Check:
+## API Endpoints
+Health Check:
   GET /api/health
 
 Students:
@@ -85,5 +85,5 @@ Courses:
   PUT /api/courses/:id → Update course
   DELETE /api/courses/:id → Delete course
 
-**NOTES**
+## NOTES
 Never commit your real .env. Use .env.example for placeholders.
