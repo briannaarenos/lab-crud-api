@@ -28,14 +28,14 @@ Currently supports **students** and **courses** resources.
   - npm install
 3. **Environment Variables**
   - Create a .env file in the root directory:
+    
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASS=
+    DB_NAME=lab_crud
+    PORT=3000
   
-  DB_HOST=localhost
-  DB_USER=root
-  DB_PASS=
-  DB_NAME=lab_crud
-  PORT=3000
-
-  Or copy .env.example and fill in your values.
+    Or copy .env.example and fill in your values.
 
 4. **Database Setup**
 - Start MySQL (via XAMPP or CLI).
@@ -61,8 +61,7 @@ Currently supports **students** and **courses** resources.
   );
 
 ## HOW TO RUN
- -  npm run dev
-  
+ - npm run dev
  - Server should be running at http://localhost:3000
 
 ## API Endpoints
