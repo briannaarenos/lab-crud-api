@@ -4,8 +4,6 @@
 - This project demonstrates how to set up a RESTful API with a structured project layout, environment variables, and database integration.  
 Currently supports **students** and **courses** resources.
 
----
-
 ## Project Overview
 - **Backend Framework:** Express.js  
 - **Database:** MySQL (via XAMPP or MySQL CLI)  
@@ -16,8 +14,6 @@ Currently supports **students** and **courses** resources.
   - CRUD for `students` table
   - CRUD for `courses` table
   - CORS enabled for frontend integration
-
----
 
 ## Setup Steps
 
