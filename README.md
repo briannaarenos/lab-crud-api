@@ -22,12 +22,12 @@ Currently supports **students** and **courses** resources.
 ## Setup Steps
 
 1. **Clone the Repository**
-   git clone https://github.com/<your-username>/lab-crud-api.git
-   cd lab-crud-api
+   - git clone https://github.com/<your-username>/lab-crud-api.git
+   - cd lab-crud-api
 2. **Install Dependencies**
-  npm install
+  - npm install
 3. **Environment Variables**
-  Create a .env file in the root directory:
+  - Create a .env file in the root directory:
   
   DB_HOST=localhost
   DB_USER=root
@@ -61,29 +61,30 @@ Currently supports **students** and **courses** resources.
   );
 
 ## HOW TO RUN
-  npm run dev
+ -  npm run dev
   
-  Server should be running at http://localhost:3000
+ - Server should be running at http://localhost:3000
 
 ## API Endpoints
 Health Check:
-  GET /api/health
+  - GET /api/health
 
 Students:
-  GET /api/students → Get all students
-  GET /api/students/:id → Get student by ID
-  POST /api/students → Create new student
-  Body: { "name": "John Doe", "email": "john@example.com", "course": "BSCS", "year_level": 2 }
-  PUT /api/students/:id → Update student
-  DELETE /api/students/:id → Delete student
+  - GET /api/students → Get all students
+  - GET /api/students/:id → Get student by ID
+  - POST /api/students → Create new student
+  - Body: { "name": "John Doe", "email": "john@example.com", "course": "BSCS", "year_level": 2 }
+  - PUT /api/students/:id → Update student
+  - DELETE /api/students/:id → Delete student
 
 Courses:
-  GET /api/courses → Get all courses
-  GET /api/courses/:id → Get course by ID
-  POST /api/courses → Create new course
-  Body: { "code": "CS101", "title": "Intro to CS", "units": 3 }
-  PUT /api/courses/:id → Update course
-  DELETE /api/courses/:id → Delete course
+  - GET /api/courses → Get all courses
+  - GET /api/courses/:id → Get course by ID
+  - POST /api/courses → Create new course
+  - Body: { "code": "CS101", "title": "Intro to CS", "units": 3 }
+  - PUT /api/courses/:id → Update course
+  - DELETE /api/courses/:id → Delete course
 
 ## NOTES
-Never commit your real .env. Use .env.example for placeholders.
+- Never commit your real .env.
+- Use .env.example for placeholders.
