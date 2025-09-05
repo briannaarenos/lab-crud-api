@@ -1,7 +1,7 @@
 # lab-crud-api
 
-A simple CRUD (Create, Read, Update, Delete) API built with **Node.js**, **Express**, and **MySQL**.  
-This project demonstrates how to set up a RESTful API with a structured project layout, environment variables, and database integration.  
+- A simple CRUD (Create, Read, Update, Delete) API built with **Node.js**, **Express**, and **MySQL**.  
+- This project demonstrates how to set up a RESTful API with a structured project layout, environment variables, and database integration.  
 Currently supports **students** and **courses** resources.
 
 ---
