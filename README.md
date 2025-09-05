@@ -1,4 +1,4 @@
-# lab-crud-api
+# Lab-CRUD API
 
 - A simple CRUD (Create, Read, Update, Delete) API built with **Node.js**, **Express**, and **MySQL**.  
 - This project demonstrates how to set up a RESTful API with a structured project layout, environment variables, and database integration.  
@@ -22,8 +22,8 @@ Currently supports **students** and **courses** resources.
 ## Setup Steps
 
 1. **Clone the Repository**
-   - git clone https://github.com/<your-username>/lab-crud-api.git
-   - cd lab-crud-api
+  - git clone https://github.com/<your-username>/lab-crud-api.git
+  - cd lab-crud-api
 2. **Install Dependencies**
   - npm install
 3. **Environment Variables**
